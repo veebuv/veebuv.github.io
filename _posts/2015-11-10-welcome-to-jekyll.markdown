@@ -1,7 +1,7 @@
 ---
-title:  "The first of many"
-date:   2013-11-10 10:18:00
-description: Blog the blog out of this blog
+title:  "Welcome to Jekyll!"
+date:   2015-08-13 10:18:00
+description: Thriller Comedy Horror
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
