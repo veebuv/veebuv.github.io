@@ -116,11 +116,12 @@ By default, this parameter is set to false, which means that the trailing slash 
 This sets the response header X-Powered-By to Express, for security reasons, to prevent vulnerability by keeping things ambiguous, you can disable it!
 
 **ETAG**
+
 ETag is a caching tool. The way it works is akin to the unique identifier for the content on a given URL. In other words, if content doesn’t change on a specific URL, the ETag will remain the same and the browser will use the cache. By default Express uses 'weak' Etag.
 
 Strong ETag guarantees the response is byte-for-byte the same, while an identical weak ETag indicates that the response is semantically the same.
 
-** QUERY PARSER**
+**QUERY PARSER**
 
 A query is data sent after the question mark in a URL for example, ?name=value&name2=value2). This format needs to be parsed into JavaScript/Node.js object format before we can use it.
 
