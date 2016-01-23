@@ -1,6 +1,5 @@
 ---
 title:  "A little express at a time!"
-date:   2015-11-21 10:18:00
 description: Some settings that may interest you
 ---
 

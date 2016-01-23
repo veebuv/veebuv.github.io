@@ -1,6 +1,5 @@
 ---
 title:  "Cache me out"
-date:   2016-01-214 10:18:00
 description: what is is caching
 ---
 
