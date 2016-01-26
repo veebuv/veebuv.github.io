@@ -14,7 +14,22 @@ So we need some basic modules set up to get our auto refreshing server along wit
 {% highlight javascript %}
 
 $ npm install webpack-dev-server -g
-$ npm install webpack-dev-server webpack babel-core babel-loader babel-preset-es2015 babel-polyfill
+$ npm install webpack-dev-server webpack babel-core babel-loader babel-preset-es2015 babel-polyfill --save-dev
+
+{% endhighlight %}
+
+Why these specific modules, well they were actually all included by default in babel5 but that's changed for babel6
+
+{% highlight javascript %}
+
+# For ES6/ES2015 support
+npm install babel-preset-es2015 --save-dev
+
+# If you want to use JSX
+npm install babel-preset-react --save-dev
+
+# If you want to use experimental ES7 features
+npm install babel-preset-stage-0 --save-dev
 
 {% endhighlight %}
 
