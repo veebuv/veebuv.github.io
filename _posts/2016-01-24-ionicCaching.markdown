@@ -1,6 +1,6 @@
 ---
 title:  "Cache me out"
-description: what is is caching
+description: what is caching
 ---
 
 **Here's whats happening**
