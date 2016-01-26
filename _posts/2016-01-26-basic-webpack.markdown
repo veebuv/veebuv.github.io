@@ -83,11 +83,11 @@ module.exports = {
 
 *Here's the run through*
 
-- entry is similar to what we discussed, its the startup file, in this case i'm running index.js which is in the src folder
+*entry is similar to what we discussed, its the startup file, in this case i'm running index.js which is in the src folder
     Index.js is where im rendering my React App component to my DOM
-- output tells webpack-dev-server or webpack (if you just do "webpack -w") where to serve all the compiled files to. You tell it to build a bundle.js right onto the server's root rather than host it up to the client.
-- module.loaders are nothing but a list of loaders or npm packages that permit webpack to convert the source file.
-- You could add a *include : (__dirname + './')* to basically load all the files with *. , .js or .jsx* extensions through babel, essentially converting them to ES5
+*output tells webpack-dev-server or webpack (if you just do "webpack -w") where to serve all the compiled files to. You tell it to build a bundle.js right onto the server's root rather than host it up to the client.
+*module.loaders are nothing but a list of loaders or npm packages that permit webpack to convert the source file.
+*You could add a *include : (__dirname + './')* to basically load all the files with *. , .js or .jsx* extensions through babel, essentially converting them to ES5
     In this case you need to only do that to bundle.js as that's the file that contains all the condensed information from all the different components of your application
 
 On a seperate file in the same directory path include a .babelrc file that will host your presets :
