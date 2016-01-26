@@ -87,7 +87,7 @@ module.exports = {
     * Index.js is where im rendering my React App component to my DOM
 - output tells webpack-dev-server or webpack (if you just do "webpack -w") where to serve all the compiled files to. You tell it to build a bundle.js right onto the server's root rather than host it up to the client.
 - module.loaders are nothing but a list of loaders or npm packages that permit webpack to convert the source file.
-- You could add a `<addr>` <addr> include : (__dirname + './') to basically load all the files with ". , .js or .jsx" extensions through babel, essentially converting them to ES5
+- You could add a *include : (__dirname + './')* to basically load all the files with *. , .js or .jsx* extensions through babel, essentially converting them to ES5
     * in this case you need to only do that to bundle.js as that's the file that contains all the condensed information from all the different components of your application
 
 On a seperate file in the same directory path include a .babelrc file that will host your presets :
@@ -100,7 +100,7 @@ On a seperate file in the same directory path include a .babelrc file that will 
 
 - What the presets do is provide configurations to babel to use for transformations - like a guideline
 
-- The code below lets the webpack-derv server know where your content's base is located, so you can ignore the "--content-base src" when you try run ur dev server in the terminal
+- The code below lets the webpack-derv server know where your content's base is located, so you can ignore the *--content-base src* when you try run ur dev server in the terminal
 
 {% highlight javascript %}
 
@@ -111,7 +111,7 @@ devServer: {
 
 **All hail the package.json**
 
-To avoid a lot of the typing each time, you can go ahead an include all the dependencies in a package.json file and just do " npm install "
+To avoid a lot of the typing each time, you can go ahead an include all the dependencies in a package.json file and just do * npm install *
 
 Within the start script you can traverse to the webpack dev server and use that to run your dev server, this picks up the content to be targeted at through the package.json file
 
